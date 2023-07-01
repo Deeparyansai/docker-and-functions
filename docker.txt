@@ -1,0 +1,7 @@
+// to install docker and install libraries of python on docker
+yum install docker 
+systemctl start docker
+docker pull centos:7
+docker run -it centos:7
+yum install python3-pip
+pip3 install numpy , pandas , scikit etc
